@@ -43,5 +43,6 @@ Pod::Spec.new do |s|
     mk.source_files = 'SDWebImageMapKit/MapKit/*.{h,m}'
     mk.framework = 'MapKit'
     mk.dependency 'SDWebImage/Core'
+    mk.dependency 'SDWebImageFLPlugin'
   end
 end
